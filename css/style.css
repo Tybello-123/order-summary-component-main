@@ -58,7 +58,7 @@ body .overview .container .text-body .p-container {
   background-color: hsl(225, 100%, 98%);
   padding: 1em;
   border-radius: 0.5em;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   overflow: hidden;
@@ -159,7 +159,7 @@ body .container .text-body .p-container {
   background-color: hsl(225, 100%, 98%);
   padding: 1em;
   border-radius: 0.5em;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   overflow: hidden;
@@ -224,9 +224,9 @@ body .container .text-body button:last-of-type {
 body .container .text-body button:last-of-type:hover {
   color: black;
 }
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   body .overview {
-    max-width: 425px;
+    max-width: 768px;
     margin: 0 auto;
   }
   body .overview .mobile-bg {
@@ -249,13 +249,4 @@ body .container .text-body button:last-of-type:hover {
   body .attribution {
     text-align: center;
   }
-}
-
-.person, .person-2 {
-  background-color: blueviolet;
-  text-align: center;
-}
-
-.person-2 {
-  color: white;
 }

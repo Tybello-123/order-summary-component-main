@@ -2,10 +2,10 @@
 @import './variables';
 @import './summary-card';
 
-@media screen and (max-width : 425px){
+@media screen and (max-width : 768px){
       
     .overview{
-        max-width: 425px;
+        max-width: 768px;
         margin: 0 auto;
      
         .mobile-bg{
