@@ -1,0 +1,178 @@
+body{
+    width:100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+
+
+    .overview{
+        max-width: 1440px;
+        width: 100%;
+        margin: 0 auto;
+        position: fixed;
+        // box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        
+      .mobile-bg{
+        display: none;
+        visibility: hidden;
+      }
+
+      .desktop-bg{
+        display: block;
+        position: absolute;
+        z-index: 1;
+      }
+ 
+        .container{
+         margin: 2em auto;
+         width: 35%;
+         background-color: white;
+         border-radius: 1em;
+         z-index: 5;
+         position: relative;
+        //  overflow: hidden;
+        
+ 
+ 
+         .hero{
+ 
+           img{
+             width: 100%;
+    
+             border-radius: 1em 1em 0 0;
+             margin: 0;
+           }
+         }
+ 
+         .text-body{
+             width: 85%;
+             margin: 0 auto;
+             text-align: center;
+             overflow-wrap: break-word;
+             word-wrap: break-word;
+ 
+             p{
+                 color: hsl(224, 23%, 55%);
+ 
+             }
+ 
+             .p-container{
+                 display: flex;
+                 justify-content: space-between;
+                 align-items: center;
+                 background-color: hsl(225, 100%, 98%);
+                 padding: 1em;
+                 border-radius:0.5em;
+                 font-size: 0.8em;
+                 box-sizing: border-box;
+                 overflow: hidden;
+                 
+ 
+
+                 .p-container1{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    img{
+                        width: 45px;
+                        height: 45px;
+                    }
+
+                    .price{
+                        margin-left: 1em;
+                        .p-head{
+                            color: black;
+                            margin:0;
+                            font-weight: 700;
+                        } 
+    
+                        .p-text{
+                            margin:0;
+                            color: hsl(224, 23%, 55%);
+
+                        }
+    
+    
+            
+                     }
+                 }
+               
+                 
+
+                 .p-change{
+                    color: hsl(245, 75%, 52%);
+                    font-weight: 700;
+                  }
+              
+             }
+
+             button{
+                width: 100%;
+                height: 45px;
+                border: none;
+                border-radius: 0.5em;
+                font-size: 1rem;
+                font-weight: 700;
+              
+             }
+
+             button:first-of-type{
+                background-color: hsl(245, 75%, 52%);
+                color: white;
+                margin: 1em 0;
+                box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 8px 15px rgba(0,0,0,0.1);
+               }
+
+              
+               button:last-of-type{
+                   background-color: white;
+                   color: hsl(224, 23%, 55%);
+                   margin-bottom: 0.5em;
+               }
+
+
+             
+         }
+ 
+ 
+ 
+     
+        }
+    }
+
+
+   @media screen and (max-width : 425px){
+      
+    .overview{
+        max-width: 425px;
+        margin: 0 auto;
+     
+        .mobile-bg{
+            display: block;
+            position: absolute;
+            z-index: 1;
+          }
+    
+          .desktop-bg{
+            display: none;
+            visibility: hidden;
+          }
+
+          .container{
+            margin: 2em auto;
+            width: 80%;
+            overflow: auto;
+           } 
+    
+   }
+
+   .attribution{
+    text-align: center;
+   }
+   
+}
+
+}

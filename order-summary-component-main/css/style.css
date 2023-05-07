@@ -1,0 +1,139 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: hsl(225, 100%, 94%);
+}
+body .overview {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+}
+body .overview .mobile-bg {
+  display: none;
+  visibility: hidden;
+}
+body .overview .desktop-bg {
+  display: block;
+  position: absolute;
+  z-index: 1;
+}
+body .overview .container {
+  margin: 2em auto;
+  width: 35%;
+  background-color: white;
+  border-radius: 1em;
+  z-index: 5;
+  position: relative;
+}
+body .overview .container .hero img {
+  width: 100%;
+  border-radius: 1em 1em 0 0;
+  margin: 0;
+}
+body .overview .container .text-body {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+body .overview .container .text-body p {
+  color: hsl(224, 23%, 55%);
+}
+body .overview .container .text-body .p-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  padding: 1em;
+  border-radius: 0.5em;
+  font-size: 0.8em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+}
+body .overview .container .text-body .p-container .p-container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body .overview .container .text-body .p-container .p-container1 img {
+  width: 45px;
+  height: 45px;
+}
+body .overview .container .text-body .p-container .p-container1 .price {
+  margin-left: 1em;
+}
+body .overview .container .text-body .p-container .p-container1 .price .p-head {
+  color: black;
+  margin: 0;
+  font-weight: 700;
+}
+body .overview .container .text-body .p-container .p-container1 .price .p-text {
+  margin: 0;
+  color: hsl(224, 23%, 55%);
+}
+body .overview .container .text-body .p-container .p-change {
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+}
+body .overview .container .text-body button {
+  width: 100%;
+  height: 45px;
+  border: none;
+  border-radius: 0.5em;
+  font-size: 1rem;
+  font-weight: 700;
+}
+body .overview .container .text-body button:first-of-type {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  margin: 1em 0;
+  -webkit-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 8px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+body .overview .container .text-body button:last-of-type {
+  background-color: white;
+  color: hsl(224, 23%, 55%);
+  margin-bottom: 0.5em;
+}
+@media screen and (max-width: 425px) {
+  body .overview {
+    max-width: 425px;
+    margin: 0 auto;
+  }
+  body .overview .mobile-bg {
+    display: block;
+    position: absolute;
+    z-index: 1;
+  }
+  body .overview .desktop-bg {
+    display: none;
+    visibility: hidden;
+  }
+  body .overview .container {
+    margin: 2em auto;
+    width: 80%;
+    overflow: auto;
+  }
+  body .attribution {
+    text-align: center;
+  }
+}
