@@ -1,0 +1,44 @@
+
+@import './variables';
+@import './summary-card';
+
+@media screen and (max-width : 425px){
+      
+    .overview{
+        max-width: 425px;
+        margin: 0 auto;
+     
+        .mobile-bg{
+            display: block;
+            position: absolute;
+            z-index: 1;
+          }
+    
+          .desktop-bg{
+            display: none;
+            visibility: hidden;
+          }
+  
+          .container{
+            margin: 2em auto;
+            width: 80%;
+            overflow: auto;
+  
+            .text-body{
+              .p-container{
+                font-size: 0.8rem;
+              }
+            }
+          
+           } 
+    
+   }
+  
+   .attribution{
+    text-align: center;
+   }
+   
+  }
+
+
+  

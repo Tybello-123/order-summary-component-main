@@ -23,7 +23,7 @@ body .overview .desktop-bg {
   z-index: 1;
 }
 body .overview .container {
-  margin: 2em auto;
+  margin: 1.5em auto;
   width: 35%;
   background-color: white;
   border-radius: 1em;
@@ -123,6 +123,107 @@ body .overview .container .text-body button:last-of-type {
 body .overview .container .text-body button:last-of-type:hover {
   color: black;
 }
+body .container {
+  margin: 1.5em auto;
+  width: 35%;
+  background-color: white;
+  border-radius: 1em;
+  z-index: 5;
+  position: relative;
+}
+body .container .hero img {
+  width: 100%;
+  border-radius: 1em 1em 0 0;
+  margin: 0;
+}
+body .container .text-body {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+body .container .text-body p {
+  color: hsl(224, 23%, 55%);
+}
+body .container .text-body .p-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  padding: 1em;
+  border-radius: 0.5em;
+  font-size: 0.9rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow: hidden;
+}
+body .container .text-body .p-container .p-container1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body .container .text-body .p-container .p-container1 img {
+  width: 45px;
+  height: 45px;
+}
+body .container .text-body .p-container .p-container1 .price {
+  margin-left: 1em;
+}
+body .container .text-body .p-container .p-container1 .price .p-head {
+  color: black;
+  margin: 0;
+  font-weight: 700;
+}
+body .container .text-body .p-container .p-container1 .price .p-text {
+  margin: 0;
+  color: hsl(224, 23%, 55%);
+}
+body .container .text-body .p-container .p-change {
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+}
+body .container .text-body .p-container .p-change:hover {
+  color: hsl(224, 23%, 55%);
+}
+body .container .text-body button {
+  width: 100%;
+  height: 45px;
+  border: none;
+  border-radius: 0.5em;
+  font-size: 1rem;
+  font-weight: 700;
+}
+body .container .text-body button:first-of-type {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  margin: 1em 0;
+  -webkit-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 8px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+body .container .text-body button:first-of-type:hover {
+  background-color: hsl(224, 23%, 55%);
+}
+body .container .text-body button:last-of-type {
+  background-color: white;
+  color: hsl(224, 23%, 55%);
+  margin-bottom: 0.5em;
+}
+body .container .text-body button:last-of-type:hover {
+  color: black;
+}
 @media screen and (max-width: 425px) {
   body .overview {
     max-width: 425px;
@@ -148,4 +249,13 @@ body .overview .container .text-body button:last-of-type:hover {
   body .attribution {
     text-align: center;
   }
+}
+
+.person, .person-2 {
+  background-color: blueviolet;
+  text-align: center;
+}
+
+.person-2 {
+  color: white;
 }

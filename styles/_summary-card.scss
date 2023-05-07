@@ -1,0 +1,138 @@
+@import './variables';
+
+
+
+@mixin flex-default{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    // background-color: $background;
+}
+
+
+
+.container{
+    margin: 1.5em auto;
+    width: 35%;
+    background-color: $white-text-bg-color;
+    border-radius: 1em;
+    z-index: 5;
+    position: relative;
+   
+
+
+    .hero{
+
+      img{
+        width: 100%;
+        border-radius: 1em 1em 0 0;
+        margin: 0;
+      }
+    }
+
+    .text-body{
+        width: 85%;
+        margin: 0 auto;
+        text-align: center;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+
+        p{
+            color: $text-hover-color;
+
+        }
+
+        .p-container{
+
+          @include flex-default();
+            background-color: $price-container-color;
+            padding: 1em;
+            border-radius:0.5em;
+            font-size: 0.9rem;
+            box-sizing: border-box;
+            overflow: hidden;
+            
+
+
+            .p-container1{
+                @include flex-default();
+
+               img{
+                   width: 45px;
+                   height: 45px;
+               }
+
+               .price{
+                   margin-left: 1em;
+                   .p-head{
+                       color: $black-text;
+                       margin:0;
+                       font-weight: 700;
+                   } 
+
+                   .p-text{
+                       margin:0;
+                       color: $text-hover-color;
+
+                   }
+
+
+       
+                }
+            }
+          
+            
+
+            .p-change{
+               color: $button-link-color;
+               font-weight: 700;
+
+               &:hover{
+                 color: $text-hover-color;
+               }
+             }
+         
+        }
+
+        button{
+           width: 100%;
+           height: 45px;
+           border: none;
+           border-radius: 0.5em;
+           font-size: 1rem;
+           font-weight: 700;
+         
+        }
+
+        button:first-of-type{
+           background-color: $button-link-color;
+           color: $white-text-bg-color;
+           margin: 1em 0;
+           box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 8px 15px rgba(0,0,0,0.1);
+
+           &:hover{
+             background-color: $text-hover-color;
+           
+           }
+          }
+
+
+         
+          button:last-of-type{
+              background-color: $white-text-bg-color;
+              color: $text-hover-color;
+              margin-bottom: 0.5em;
+
+              &:hover{
+               color: $black-text;
+              }
+          }
+
+   
+
+
+        
+    }
+    
+}
+
