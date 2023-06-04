@@ -23,24 +23,22 @@ body .overview .desktop-bg {
   z-index: 1;
 }
 body .overview .container {
-  margin: 1.5em auto;
-  width: 35%;
+  width: 30%;
   background-color: white;
-  border-radius: 1em;
   z-index: 5;
   position: relative;
 }
 body .overview .container .hero img {
-  width: 100%;
-  border-radius: 1em 1em 0 0;
-  margin: 0;
+  width: 90%;
 }
 body .overview .container .text-body {
-  width: 85%;
-  margin: 0 auto;
-  text-align: center;
+  width: 80%;
   overflow-wrap: break-word;
   word-wrap: break-word;
+}
+body .overview .container .text-body h1 {
+  font-weight: 700;
+  font-size: 1.5rem;
 }
 body .overview .container .text-body p {
   color: hsl(224, 23%, 55%);
@@ -56,12 +54,9 @@ body .overview .container .text-body .p-container {
       -ms-flex-align: center;
           align-items: center;
   background-color: hsl(225, 100%, 98%);
-  padding: 1em;
-  border-radius: 0.5em;
   font-size: 0.8rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  overflow: hidden;
 }
 body .overview .container .text-body .p-container .p-container1 {
   display: -webkit-box;
@@ -83,11 +78,9 @@ body .overview .container .text-body .p-container .p-container1 .price {
 }
 body .overview .container .text-body .p-container .p-container1 .price .p-head {
   color: black;
-  margin: 0;
   font-weight: 700;
 }
 body .overview .container .text-body .p-container .p-container1 .price .p-text {
-  margin: 0;
   color: hsl(224, 23%, 55%);
 }
 body .overview .container .text-body .p-container .p-change {
@@ -98,17 +91,14 @@ body .overview .container .text-body .p-container .p-change:hover {
   color: hsl(224, 23%, 55%);
 }
 body .overview .container .text-body button {
-  width: 100%;
   height: 45px;
   border: none;
-  border-radius: 0.5em;
   font-size: 1rem;
   font-weight: 700;
 }
 body .overview .container .text-body button:first-of-type {
   background-color: hsl(245, 75%, 52%);
   color: white;
-  margin: 1em 0;
   -webkit-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 8px 15px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
@@ -118,30 +108,27 @@ body .overview .container .text-body button:first-of-type:hover {
 body .overview .container .text-body button:last-of-type {
   background-color: white;
   color: hsl(224, 23%, 55%);
-  margin-bottom: 0.5em;
 }
 body .overview .container .text-body button:last-of-type:hover {
   color: black;
 }
 body .container {
-  margin: 1.5em auto;
-  width: 35%;
+  width: 30%;
   background-color: white;
-  border-radius: 1em;
   z-index: 5;
   position: relative;
 }
 body .container .hero img {
-  width: 100%;
-  border-radius: 1em 1em 0 0;
-  margin: 0;
+  width: 90%;
 }
 body .container .text-body {
-  width: 85%;
-  margin: 0 auto;
-  text-align: center;
+  width: 80%;
   overflow-wrap: break-word;
   word-wrap: break-word;
+}
+body .container .text-body h1 {
+  font-weight: 700;
+  font-size: 1.5rem;
 }
 body .container .text-body p {
   color: hsl(224, 23%, 55%);
@@ -157,12 +144,9 @@ body .container .text-body .p-container {
       -ms-flex-align: center;
           align-items: center;
   background-color: hsl(225, 100%, 98%);
-  padding: 1em;
-  border-radius: 0.5em;
   font-size: 0.8rem;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  overflow: hidden;
 }
 body .container .text-body .p-container .p-container1 {
   display: -webkit-box;
@@ -184,11 +168,9 @@ body .container .text-body .p-container .p-container1 .price {
 }
 body .container .text-body .p-container .p-container1 .price .p-head {
   color: black;
-  margin: 0;
   font-weight: 700;
 }
 body .container .text-body .p-container .p-container1 .price .p-text {
-  margin: 0;
   color: hsl(224, 23%, 55%);
 }
 body .container .text-body .p-container .p-change {
@@ -199,17 +181,14 @@ body .container .text-body .p-container .p-change:hover {
   color: hsl(224, 23%, 55%);
 }
 body .container .text-body button {
-  width: 100%;
   height: 45px;
   border: none;
-  border-radius: 0.5em;
   font-size: 1rem;
   font-weight: 700;
 }
 body .container .text-body button:first-of-type {
   background-color: hsl(245, 75%, 52%);
   color: white;
-  margin: 1em 0;
   -webkit-box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 8px 15px rgba(0, 0, 0, 0.1);
           box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
@@ -219,7 +198,6 @@ body .container .text-body button:first-of-type:hover {
 body .container .text-body button:last-of-type {
   background-color: white;
   color: hsl(224, 23%, 55%);
-  margin-bottom: 0.5em;
 }
 body .container .text-body button:last-of-type:hover {
   color: black;
@@ -242,6 +220,12 @@ body .container .text-body button:last-of-type:hover {
     margin: 2em auto;
     width: 80%;
     overflow: auto;
+  }
+  body .overview .container h1 {
+    font-size: 1rem;
+  }
+  body .overview .container p {
+    font-size: 0.8rem;
   }
   body .overview .container .text-body .p-container {
     font-size: 0.8rem;

@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
   
@@ -15,33 +17,34 @@
 
 </head>
 <body>
-  <div class="overview">
+  <div class="overview container-md mx-0">
   <img src="images/pattern-background-mobile.svg" alt="pattern-background-mobile" class="mobile-bg"/>
   <img src="images/pattern-background-desktop.svg" alt="pattern-background-desktop" class="desktop-bg"/>
-  <div class="container">
-    <div id="hero" class="hero">
-      <img src="images/illustration-hero.svg" alt="girl-listening-to-music"/>
+  <div class="container my-3 mx-auto  p-0 rounded-4">
+    <div id="hero" class="m-0 hero">
+      <img src="images/illustration-hero.svg" alt="girl-listening-to-music" class="w-100 rounded-top-4"/>
     </div>
-    <div id="text-body" class="text-body">
-      <h2 id="title">Order Summary</h1>
-      <p id="description">
+
+    <div id="text-body" class="text-body text-center my-0 mx-auto">
+      <h1 id="title" class="mt-4">Order Summary</h1>
+      <p id="description" class="mb-3">
         You can now listen to millions of songs, audiobooks, and podcasts on any 
         device anywhere you like!</p>
 
-        <div id="pricing-plan-container" class="p-container">
+        <div id="pricing-plan-container" class="p-3 rounded-3 mb-2 p-container">
           <div class = "p-container1">
-          <img src="images/icon-music.svg" alt="music-icon"></img>
+          <img src="images/icon-music.svg" alt="music-icon" class="w-50 h-50"></img>
           <div class="price">
-            <p id="annual-plan" class="p-head">Annual Plan</p>
-          <p id="pricing" class="p-text">$59.99/year</p>
+            <p id="annual-plan" class="p-head m-0">Annual Plan</p>
+            <p id="pricing" class="p-text m-0">$59.99/year</p>
           </div>
         </div>
         
          <a href=""><p id="change-pricing" class="p-change">Change</p></a>
         </div>
 
-        <button type="button" id="payment-button" class="payment-btn">Proceed to Payment</button>
-        <button type="button" id="cancel-order-button" class="cancel-btn">Cancel Order</button>
+        <button type="button" id="payment-button" class="payment-btn w-100 my-3 mx-0 rounded-3">Proceed to Payment</button>
+        <button type="button" id="cancel-order-button" class="cancel-btn w-100 mb-3 mt-0">Cancel Order</button>
         </div>
     </div>
 
