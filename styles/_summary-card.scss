@@ -51,15 +51,13 @@
             font-size: 0.8rem;
             box-sizing: border-box;
 
-            
-
-
+          
             .p-container1{
                 @include flex-default();
 
                img{
-                   width: 45px;
-                   height: 45px;
+                   width: 40px;
+                   height: 40px;
                }
 
                .price{
@@ -78,6 +76,10 @@
 
 
        
+                }
+
+                .p-change{
+                  font-size: 2rem;
                 }
             }
           

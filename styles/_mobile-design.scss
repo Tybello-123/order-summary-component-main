@@ -21,7 +21,7 @@
   
           .container{
             margin: 2em auto;
-            width: 80%;
+            width: 90%;
             overflow: auto;
 
             h1{
@@ -36,8 +36,17 @@
               .p-container{
                 font-size: 0.8rem;
               }
+              // p.head{
+              //   font-size: 0.8rem;
+              // }
+              // .p-text{
+              //   font-size: 0.5rem;
+              // }
             }
           
+            .p-change{
+              font-size: 0.8rem;
+            }
            } 
     
    }
