@@ -74,11 +74,11 @@ body .overview .container .text-body .p-container .icon-con img {
   height: 40px;
 }
 body .overview .container .text-body .p-container .price {
-  margin-left: 1em;
+  margin-left: 1.5em;
 }
 body .overview .container .text-body .p-container .price .p-head {
   color: black;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 700;
 }
 body .overview .container .text-body .p-container .price .p-text {
@@ -88,7 +88,8 @@ body .overview .container .text-body .p-container .price .p-text {
 body .overview .container .text-body .p-container .p-change {
   color: hsl(245, 75%, 52%);
   font-weight: 700;
-  font-size: 0.8rem;
+  font-size: 1rem;
+  margin-top: 1em;
 }
 body .overview .container .text-body .p-container .p-change:hover {
   color: hsl(224, 23%, 55%);
@@ -167,11 +168,11 @@ body .container .text-body .p-container .icon-con img {
   height: 40px;
 }
 body .container .text-body .p-container .price {
-  margin-left: 1em;
+  margin-left: 1.5em;
 }
 body .container .text-body .p-container .price .p-head {
   color: black;
-  font-size: 0.8rem;
+  font-size: 1rem;
   font-weight: 700;
 }
 body .container .text-body .p-container .price .p-text {
@@ -181,7 +182,8 @@ body .container .text-body .p-container .price .p-text {
 body .container .text-body .p-container .p-change {
   color: hsl(245, 75%, 52%);
   font-weight: 700;
-  font-size: 0.8rem;
+  font-size: 1rem;
+  margin-top: 1em;
 }
 body .container .text-body .p-container .p-change:hover {
   color: hsl(224, 23%, 55%);
@@ -234,6 +236,15 @@ body .container .text-body button:last-of-type:hover {
     font-size: 0.8rem;
   }
   body .overview .container .text-body .p-container {
+    font-size: 0.8rem;
+  }
+  body .overview .container .text-body .p-container .price .p-head {
+    font-size: 0.8rem;
+  }
+  body .overview .container .text-body .p-container .price .p-text {
+    font-size: 0.6rem;
+  }
+  body .overview .container .text-body .p-container .p-change {
     font-size: 0.8rem;
   }
   body .attribution {

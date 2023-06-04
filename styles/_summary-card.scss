@@ -64,10 +64,10 @@
           
             
             .price{
-                 margin-left: 1em;
+                 margin-left: 1.5em;
               .p-head{
                   color: $black-text;
-                  font-size: 0.8rem;
+                  font-size: 1rem;
                   font-weight: $font-weight-bold;
               } 
 
@@ -85,7 +85,8 @@
             .p-change{
                color: $button-link-color;
                font-weight: $font-weight-bold;
-               font-size: 0.8rem;
+               font-size: 1rem;
+               margin-top: 1em;
                &:hover{
                  color: $text-hover-color;
                }
