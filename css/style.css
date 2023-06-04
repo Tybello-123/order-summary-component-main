@@ -83,9 +83,6 @@ body .overview .container .text-body .p-container .p-container1 .price .p-head {
 body .overview .container .text-body .p-container .p-container1 .price .p-text {
   color: hsl(224, 23%, 55%);
 }
-body .overview .container .text-body .p-container .p-container1 .p-change {
-  font-size: 2rem;
-}
 body .overview .container .text-body .p-container .p-change {
   color: hsl(245, 75%, 52%);
   font-weight: 700;
@@ -176,9 +173,6 @@ body .container .text-body .p-container .p-container1 .price .p-head {
 body .container .text-body .p-container .p-container1 .price .p-text {
   color: hsl(224, 23%, 55%);
 }
-body .container .text-body .p-container .p-container1 .p-change {
-  font-size: 2rem;
-}
 body .container .text-body .p-container .p-change {
   color: hsl(245, 75%, 52%);
   font-weight: 700;
@@ -234,9 +228,6 @@ body .container .text-body button:last-of-type:hover {
     font-size: 0.8rem;
   }
   body .overview .container .text-body .p-container {
-    font-size: 0.8rem;
-  }
-  body .overview .container .p-change {
     font-size: 0.8rem;
   }
   body .attribution {

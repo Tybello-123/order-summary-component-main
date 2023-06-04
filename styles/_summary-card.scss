@@ -64,13 +64,14 @@
                    margin-left: 1em;
                    .p-head{
                        color: $black-text;
-                   
+                      //  font-size: 1rem;
                        font-weight: $font-weight-bold;
                    } 
 
                    .p-text{
-                     
-                       color: $text-hover-color;
+                    
+                    //  font-size: 0.8rem;
+                        color: $text-hover-color;
 
                    }
 
@@ -78,9 +79,7 @@
        
                 }
 
-                .p-change{
-                  font-size: 2rem;
-                }
+             
             }
           
             
@@ -88,7 +87,7 @@
             .p-change{
                color: $button-link-color;
                font-weight: $font-weight-bold;
-
+              //  font-size: 0.8rem;
                &:hover{
                  color: $text-hover-color;
                }
