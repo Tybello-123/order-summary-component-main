@@ -58,7 +58,7 @@ body .overview .container .text-body .p-container {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-body .overview .container .text-body .p-container .p-container1 {
+body .overview .container .text-body .p-container .icon-con {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -69,23 +69,26 @@ body .overview .container .text-body .p-container .p-container1 {
       -ms-flex-align: center;
           align-items: center;
 }
-body .overview .container .text-body .p-container .p-container1 img {
+body .overview .container .text-body .p-container .icon-con img {
   width: 40px;
   height: 40px;
 }
-body .overview .container .text-body .p-container .p-container1 .price {
+body .overview .container .text-body .p-container .price {
   margin-left: 1em;
 }
-body .overview .container .text-body .p-container .p-container1 .price .p-head {
+body .overview .container .text-body .p-container .price .p-head {
   color: black;
+  font-size: 0.8rem;
   font-weight: 700;
 }
-body .overview .container .text-body .p-container .p-container1 .price .p-text {
+body .overview .container .text-body .p-container .price .p-text {
+  font-size: 0.8rem;
   color: hsl(224, 23%, 55%);
 }
 body .overview .container .text-body .p-container .p-change {
   color: hsl(245, 75%, 52%);
   font-weight: 700;
+  font-size: 0.8rem;
 }
 body .overview .container .text-body .p-container .p-change:hover {
   color: hsl(224, 23%, 55%);
@@ -148,7 +151,7 @@ body .container .text-body .p-container {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-body .container .text-body .p-container .p-container1 {
+body .container .text-body .p-container .icon-con {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -159,23 +162,26 @@ body .container .text-body .p-container .p-container1 {
       -ms-flex-align: center;
           align-items: center;
 }
-body .container .text-body .p-container .p-container1 img {
+body .container .text-body .p-container .icon-con img {
   width: 40px;
   height: 40px;
 }
-body .container .text-body .p-container .p-container1 .price {
+body .container .text-body .p-container .price {
   margin-left: 1em;
 }
-body .container .text-body .p-container .p-container1 .price .p-head {
+body .container .text-body .p-container .price .p-head {
   color: black;
+  font-size: 0.8rem;
   font-weight: 700;
 }
-body .container .text-body .p-container .p-container1 .price .p-text {
+body .container .text-body .p-container .price .p-text {
+  font-size: 0.8rem;
   color: hsl(224, 23%, 55%);
 }
 body .container .text-body .p-container .p-change {
   color: hsl(245, 75%, 52%);
   font-weight: 700;
+  font-size: 0.8rem;
 }
 body .container .text-body .p-container .p-change:hover {
   color: hsl(224, 23%, 55%);

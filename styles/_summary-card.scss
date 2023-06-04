@@ -52,42 +52,40 @@
             box-sizing: border-box;
 
           
-            .p-container1{
+            .icon-con{
                 @include flex-default();
 
                img{
                    width: 40px;
                    height: 40px;
                }
-
-               .price{
-                   margin-left: 1em;
-                   .p-head{
-                       color: $black-text;
-                      //  font-size: 1rem;
-                       font-weight: $font-weight-bold;
-                   } 
-
-                   .p-text{
-                    
-                    //  font-size: 0.8rem;
-                        color: $text-hover-color;
-
-                   }
-
-
-       
-                }
-
              
             }
           
             
+            .price{
+                 margin-left: 1em;
+              .p-head{
+                  color: $black-text;
+                  font-size: 0.8rem;
+                  font-weight: $font-weight-bold;
+              } 
+
+              .p-text{
+               
+                font-size: 0.8rem;
+                   color: $text-hover-color;
+
+              }
+
+
+  
+           }
 
             .p-change{
                color: $button-link-color;
                font-weight: $font-weight-bold;
-              //  font-size: 0.8rem;
+               font-size: 0.8rem;
                &:hover{
                  color: $text-hover-color;
                }
